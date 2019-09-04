@@ -283,18 +283,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &181309802 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4180456598855995967, guid: 81ecb8332171e7c45838cf91791b7e5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4180456600089201371}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &354912689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4564655625279526, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
@@ -657,205 +645,93 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087744859}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1227904573 stripped
+--- !u!1001 &1171298893
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1893504798}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_Name
+      value: 8_Piano
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+--- !u!114 &1257438022 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4180456600233423318, guid: 81ecb8332171e7c45838cf91791b7e5e,
+  m_CorrespondingSourceObject: {fileID: 1257438022, guid: 81ecb8332171e7c45838cf91791b7e5e,
     type: 3}
   m_PrefabInstance: {fileID: 4180456600089201371}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1257438018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4180456599696900705, guid: 81ecb8332171e7c45838cf91791b7e5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4180456600089201371}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1257438021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257438018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 329a841d9401d2644b335c7c8c6cfe38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - name: 1_OnLonswordSelected
-    gameEvent: {fileID: 11400000, guid: 5f239a349d797b640b637c1732f88444, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: ecb1851de5b848a4bb21a3d5dc1585e1,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 2_OnShortswordSelected
-    gameEvent: {fileID: 11400000, guid: 0dbf22480857dab49bb60a49079828af, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: e04ffd04d202f72439ea53a4f4dd08f6,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 3_OnClaymoreSelected
-    gameEvent: {fileID: 11400000, guid: 9e72c177201a3a845a25cc1035666247, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 725c646a77cf6b64c80b3ba55dfbda2a,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 4_OnFalchionSelected
-    gameEvent: {fileID: 11400000, guid: 3a27b1d0d33a3bf4da511fc4220b2255, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: fde688869ce56c849806bfd91882b7fa,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 5_OnKatanaSelected
-    gameEvent: {fileID: 11400000, guid: 9316971715f64b34f997dab8efd3b2eb, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 324802e5173583441b664034a0841610,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 6_OnBroadswordSelected
-    gameEvent: {fileID: 11400000, guid: 4df345c580ad7a541b97728b0c2bd833, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: ede6cf20591fce44881d267040eb4f29,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 7_OnEdgedswordSelected
-    gameEvent: {fileID: 11400000, guid: 410869a44577a6d49b94da86990ada0b, type: 2}
-    gameAction:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1257438022}
-          m_MethodName: UpdateDisplayUI
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 8d538720b21f75b4496d743398d13570,
-              type: 2}
-            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
---- !u!114 &1257438022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257438018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee5a4056b92503a4293193d0b3973e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swordName: {fileID: 1227904573}
-  description: {fileID: 181309802}
-  icon: {fileID: 1819116964}
-  goldCost: {fileID: 1341668019}
-  attackDamage: {fileID: 1992754188}
 --- !u!4 &1314794256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4452291970521904, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
     type: 3}
   m_PrefabInstance: {fileID: 1882356582}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1341668019 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4180456598835950592, guid: 81ecb8332171e7c45838cf91791b7e5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4180456600089201371}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1496437134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1049,6 +925,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1496437134}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1561427038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 571f3cc6cf641c8498e3eae32bc2ee83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1171298893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1561427039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1171298893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1561427043
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561427038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+--- !u!114 &1561427044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561427038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025e2b52516df7b4799b19f4617bc1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4102f922f1dbd8047ba87dd1f5ccb1aa, type: 2}
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1561427045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561427038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ec0fb3ff2a5454e8863609a58514d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glowColor: {r: 1, g: 0.6555322, b: 0.0047169924, a: 1}
+  lerpMultiplier: 12
 --- !u!4 &1671477898 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4933422604388220, guid: c1005caa6941a45418635cdf0f1139ea,
@@ -1211,18 +1155,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39069f295ce0e20479c06ddb8196bb35, type: 3}
---- !u!114 &1819116964 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4180456600137764600, guid: 81ecb8332171e7c45838cf91791b7e5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4180456600089201371}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1882356582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1335,21 +1267,10 @@ Transform:
   - {fileID: 354912689}
   - {fileID: 948752558}
   - {fileID: 1314794256}
+  - {fileID: 1561427039}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1992754188 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4180456598343560934, guid: 81ecb8332171e7c45838cf91791b7e5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4180456600089201371}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2143370518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,11 +1391,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwordMerchantPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 4180456599696900705, guid: 81ecb8332171e7c45838cf91791b7e5e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4180456599696900704, guid: 81ecb8332171e7c45838cf91791b7e5e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1579,6 +1495,53 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].name
+      value: 8_OnPianoSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 4102f922f1dbd8047ba87dd1f5ccb1aa,
+        type: 2}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1257438022}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateDisplayUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: b50f72c5b46147e40898c4646a2475ad,
+        type: 2}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: SwordData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257438021, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
+      propertyPath: actions.Array.data[7].gameAction.m_TypeName
+      value: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81ecb8332171e7c45838cf91791b7e5e, type: 3}
