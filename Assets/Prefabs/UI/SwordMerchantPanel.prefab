@@ -398,6 +398,8 @@ GameObject:
   - component: {fileID: 4180456599696900704}
   - component: {fileID: 4180456599696900710}
   - component: {fileID: 4180456599696900711}
+  - component: {fileID: 1257438021}
+  - component: {fileID: 1257438022}
   m_Layer: 5
   m_Name: SwordMerchantPanel
   m_TagString: Untagged
@@ -412,7 +414,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4180456599696900705}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -421,6 +423,7 @@ RectTransform:
   - {fileID: 4180456600137764601}
   - {fileID: 4180456600233423319}
   - {fileID: 4180456598855995960}
+  - {fileID: 6596451007613945337}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -466,6 +469,171 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &1257438021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180456599696900705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329a841d9401d2644b335c7c8c6cfe38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - name: 1_OnLonswordSelected
+    gameEvent: {fileID: 11400000, guid: 5f239a349d797b640b637c1732f88444, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: ecb1851de5b848a4bb21a3d5dc1585e1,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 2_OnShortswordSelected
+    gameEvent: {fileID: 11400000, guid: 0dbf22480857dab49bb60a49079828af, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e04ffd04d202f72439ea53a4f4dd08f6,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 3_OnClaymoreSelected
+    gameEvent: {fileID: 11400000, guid: 9e72c177201a3a845a25cc1035666247, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 725c646a77cf6b64c80b3ba55dfbda2a,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 4_OnFalchionSelected
+    gameEvent: {fileID: 11400000, guid: 3a27b1d0d33a3bf4da511fc4220b2255, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: fde688869ce56c849806bfd91882b7fa,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 5_OnKatanaSelected
+    gameEvent: {fileID: 11400000, guid: 9316971715f64b34f997dab8efd3b2eb, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 324802e5173583441b664034a0841610,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 6_OnBroadswordSelected
+    gameEvent: {fileID: 11400000, guid: 4df345c580ad7a541b97728b0c2bd833, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: ede6cf20591fce44881d267040eb4f29,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 7_OnEdgedswordSelected
+    gameEvent: {fileID: 11400000, guid: 410869a44577a6d49b94da86990ada0b, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 8d538720b21f75b4496d743398d13570,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+--- !u!114 &1257438022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180456599696900705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5a4056b92503a4293193d0b3973e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordName: {fileID: 4180456600233423318}
+  description: {fileID: 4180456598855995967}
+  icon: {fileID: 4180456600137764600}
+  goldCost: {fileID: 4180456598835950592}
+  attackDamage: {fileID: 4180456598343560934}
+  audio: {fileID: 3083953579254540001}
+  clipTimer: 0
 --- !u!1 &4180456600137764602
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,3 +787,135 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Sword
+--- !u!1 &8748117776916702003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6596451007613945337}
+  - component: {fileID: 3083953579254540001}
+  m_Layer: 5
+  m_Name: AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6596451007613945337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8748117776916702003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4180456599696900704}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &3083953579254540001
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8748117776916702003}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

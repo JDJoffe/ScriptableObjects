@@ -9,7 +9,12 @@ public class SwordMerchant : MonoBehaviour
     [SerializeField] private Image icon;
     [SerializeField] private Text goldCost;
     [SerializeField] private Text attackDamage;
+    [SerializeField] public static AudioClip swordSound;
 
+    [SerializeField] private AudioSource audio;
+    [SerializeField] private float clipTimer;
+
+   
     public void UpdateDisplayUI(SwordData swordData)
     {
         swordName.text = swordData.SwordName;
@@ -17,5 +22,8 @@ public class SwordMerchant : MonoBehaviour
         icon.sprite = swordData.Icon;
         goldCost.text = swordData.GoldCost.ToString();
         attackDamage.text = swordData.AttackDamage.ToString();
+        audio.clip = swordData.SwordSound;
+        audio.Play();
     }
+
 }

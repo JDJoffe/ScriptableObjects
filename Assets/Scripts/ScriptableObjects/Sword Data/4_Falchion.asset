@@ -17,3 +17,4 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 433e5d9a050489f48bdb85605c9e1337, type: 3}
   goldCost: 200
   attackDamage: 25
+  swordSound: {fileID: 8300000, guid: 7b25f2c77017b4e46819f10b1b388316, type: 3}
