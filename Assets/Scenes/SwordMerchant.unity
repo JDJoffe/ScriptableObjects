@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ec0fb3ff2a5454e8863609a58514d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  glowColor: {r: 1, g: 0.6555322, b: 0.0047169924, a: 1}
+  glowColor: {r: 1, g: 0.16172588, b: 0.0039215684, a: 1}
   lerpMultiplier: 12
 --- !u!4 &1671477898 stripped
 Transform:
