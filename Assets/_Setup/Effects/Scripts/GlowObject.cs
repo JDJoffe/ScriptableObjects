@@ -37,12 +37,13 @@ public class GlowObject : MonoBehaviour
 		}
 	}
 
+    // unity's version of :hover
 	private void OnMouseEnter()
 	{
 		targetColor = glowColor;
 		enabled = true;
 	}
-
+    // same here
 	private void OnMouseExit()
 	{
 		targetColor = Color.black;

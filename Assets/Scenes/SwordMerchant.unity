@@ -158,6 +158,43 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: 324802e5173583441b664034a0841610,
+        type: 2}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 9316971715f64b34f997dab8efd3b2eb,
+        type: 2}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b8ca2f9914b7f746b3ea1444786a63e, type: 3}
 --- !u!1 &129545800
@@ -246,6 +283,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &181309802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4180456598855995967, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &354912689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4564655625279526, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
@@ -477,6 +526,43 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: fde688869ce56c849806bfd91882b7fa,
+        type: 2}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a27b1d0d33a3bf4da511fc4220b2255,
+        type: 2}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1005caa6941a45418635cdf0f1139ea, type: 3}
 --- !u!1 &1087744859
@@ -571,12 +657,205 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087744859}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1227904573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4180456600233423318, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1257438018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4180456599696900705, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1257438021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257438018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329a841d9401d2644b335c7c8c6cfe38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - name: 1_OnLonswordSelected
+    gameEvent: {fileID: 11400000, guid: 5f239a349d797b640b637c1732f88444, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: ecb1851de5b848a4bb21a3d5dc1585e1,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 2_OnShortswordSelected
+    gameEvent: {fileID: 11400000, guid: 0dbf22480857dab49bb60a49079828af, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e04ffd04d202f72439ea53a4f4dd08f6,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 3_OnClaymoreSelected
+    gameEvent: {fileID: 11400000, guid: 9e72c177201a3a845a25cc1035666247, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 725c646a77cf6b64c80b3ba55dfbda2a,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 4_OnFalchionSelected
+    gameEvent: {fileID: 11400000, guid: 3a27b1d0d33a3bf4da511fc4220b2255, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: fde688869ce56c849806bfd91882b7fa,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 5_OnKatanaSelected
+    gameEvent: {fileID: 11400000, guid: 9316971715f64b34f997dab8efd3b2eb, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 324802e5173583441b664034a0841610,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 6_OnBroadswordSelected
+    gameEvent: {fileID: 11400000, guid: 4df345c580ad7a541b97728b0c2bd833, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: ede6cf20591fce44881d267040eb4f29,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 7_OnEdgedswordSelected
+    gameEvent: {fileID: 11400000, guid: 410869a44577a6d49b94da86990ada0b, type: 2}
+    gameAction:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1257438022}
+          m_MethodName: UpdateDisplayUI
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 8d538720b21f75b4496d743398d13570,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+--- !u!114 &1257438022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257438018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5a4056b92503a4293193d0b3973e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordName: {fileID: 1227904573}
+  description: {fileID: 181309802}
+  icon: {fileID: 1819116964}
+  goldCost: {fileID: 1341668019}
+  attackDamage: {fileID: 1992754188}
 --- !u!4 &1314794256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4452291970521904, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
     type: 3}
   m_PrefabInstance: {fileID: 1882356582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1341668019 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4180456598835950592, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1496437134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -615,6 +894,43 @@ PrefabInstance:
     - target: {fileID: 4196808307524600, guid: 5702e839c26040d42b40429b7dbb89cc, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: 725c646a77cf6b64c80b3ba55dfbda2a,
+        type: 2}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e72c177201a3a845a25cc1035666247,
+        type: 2}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5702e839c26040d42b40429b7dbb89cc, type: 3}
@@ -688,6 +1004,43 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: ede6cf20591fce44881d267040eb4f29,
+        type: 2}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 4df345c580ad7a541b97728b0c2bd833,
+        type: 2}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dca4a46237666594aae4c02dc49e9ed3, type: 3}
 --- !u!4 &1545192334 stripped
@@ -741,6 +1094,43 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: e04ffd04d202f72439ea53a4f4dd08f6,
+        type: 2}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 0dbf22480857dab49bb60a49079828af,
+        type: 2}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52231d642efb9b54ea6b8739d77908c5, type: 3}
 --- !u!1001 &1773880809
@@ -782,8 +1172,57 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: ecb1851de5b848a4bb21a3d5dc1585e1,
+        type: 2}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f239a349d797b640b637c1732f88444,
+        type: 2}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39069f295ce0e20479c06ddb8196bb35, type: 3}
+--- !u!114 &1819116964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4180456600137764600, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1882356582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -822,6 +1261,43 @@ PrefabInstance:
     - target: {fileID: 4452291970521904, guid: b8bc53f0eae47e34db6ca6fe84e1055c, type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: swordData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d538720b21f75b4496d743398d13570,
+        type: 2}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 410869a44577a6d49b94da86990ada0b,
+        type: 2}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8bc53f0eae47e34db6ca6fe84e1055c, type: 3}
@@ -862,6 +1338,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1992754188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4180456598343560934, guid: 81ecb8332171e7c45838cf91791b7e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4180456600089201371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2143370518
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +1469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SwordMerchantPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180456599696900705, guid: 81ecb8332171e7c45838cf91791b7e5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4180456599696900704, guid: 81ecb8332171e7c45838cf91791b7e5e,
         type: 3}
