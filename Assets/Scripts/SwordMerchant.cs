@@ -10,11 +10,11 @@ public class SwordMerchant : MonoBehaviour
     [SerializeField] private Text goldCost;
     [SerializeField] private Text attackDamage;
     [SerializeField] public static AudioClip swordSound;
-
+    // sound stuff
     [SerializeField] private AudioSource audio;
     [SerializeField] private float clipTimer;
 
-   
+   // when you click on the sword do the following
     public void UpdateDisplayUI(SwordData swordData)
     {
         swordName.text = swordData.SwordName;

@@ -17,7 +17,7 @@ public class SwordData : ScriptableObject
     [SerializeField] private int attackDamage;
     [SerializeField] private AudioClip swordSound;
     #endregion
-
+    // get the var from the scriptable objects
     public string SwordName { get { return swordName; } }
     public string Description { get { return description; } }
     public Sprite Icon { get { return icon; } }
